@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Избранное - магазин "Квадратный метр"</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800|Oswald:700&display=swap&subset=cyrillic-ext"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body class="sticky-footer">
+        <!-- content-wrapper -->
+        <div class="content-wrapper">
+            <!-- top-panel -->
+            <div class="top-panel">
+                <div class="top-panel__container">
+                    <div class="top-panel__title">
+                        интернет магазин недвижимости
+                    </div>
+                    <!-- <div class="top-panel__phone"><a href="tel:+8800557755">8 (800) 55-77-55</a></div> -->
+
+                    <div class="top-panel__favourites">
+                        <button class="btn-show-favourites">
+                            <i class="fas fa-heart"></i> Избранное
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- // top-panel -->
+
+            <div class="logo-wrapper">
+                <a href="index.html" class="logo">
+                    <div class="logo__title">КВАДРАТНЫЙ МЕТР</div>
+                    <div class="logo__subtitle">
+                        купить квартиру в один клик
+                    </div>
+                </a>
+            </div>
+
+            <div class="container p-0">
+                <div class="heading-1">Избранное</div>
+            </div>
+
+            <div class="view-options-wrapper">
+                <div class="container p-0">
+                    <!-- view-options -->
+                    <div class="view-options">
+                        <div class="view-options__sort">
+                            <label
+                                for="sort-cards-by"
+                                class="view-options__label"
+                                >Сортировать</label
+                            >
+                            <select
+                                id="sort-cards-by"
+                                name=""
+                                id=""
+                                class="view-options__select"
+                            >
+                                <option value="">по цене ↑</option>
+                                <option value="">по цене ↓</option>
+                                <option value="">по площади ↑</option>
+                                <option value="">по площади ↓</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- // view-options -->
+                </div>
+            </div>
+
+            <!-- cards-wrapper -->
+            <div class="cards-wrapper">
+                <div class="container p-0">
+                    <!-- row -->
+                    <div class="row">
+                        
+                        <article class="col-md-4">
+                            <!-- card -->
+                            <a href="object.html" class="card">
+                                <div class="card__header">
+                                    <div class="card__title">
+                                        ЖК Генеральский
+                                    </div>
+                                    <div class="card__like">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <img
+                                        src="img/flat-plan.png"
+                                        alt="План квартиры"
+                                    />
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__price">
+                                        <div class="card__price-total">
+                                            4 200 000 ₽
+                                        </div>
+                                        <div class="card__price-per-meter">
+                                            64 000 ₽/м2
+                                        </div>
+                                    </div>
+
+                                    <!-- card__params params -->
+                                    <div class="card__params params">
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Комнат
+                                            </div>
+                                            <div class="params__value">1</div>
+                                        </div>
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Площадь
+                                            </div>
+                                            <div class="params__value">56</div>
+                                        </div>
+                                    </div>
+                                    <!-- //card__params params -->
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__art">ГЕН-112-42</div>
+                                    <div class="card__floor">Этаж 4 из 12</div>
+                                </div>
+                            </a>
+                            <!-- // card -->
+                        </article>
+
+                        <article class="col-md-4">
+                            <!-- card -->
+                            <a href="object.html" class="card">
+                                <div class="card__header">
+                                    <div class="card__title">
+                                        ЖК Генеральский
+                                    </div>
+                                    <div class="card__like card__like--active">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <img
+                                        src="img/flat-plan.png"
+                                        alt="План квартиры"
+                                    />
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__price">
+                                        <div class="card__price-total">
+                                            4 200 000 ₽
+                                        </div>
+                                        <div class="card__price-per-meter">
+                                            64 000 ₽/м2
+                                        </div>
+                                    </div>
+
+                                    <!-- card__params params -->
+                                    <div class="card__params params">
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Комнат
+                                            </div>
+                                            <div class="params__value">1</div>
+                                        </div>
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Площадь
+                                            </div>
+                                            <div class="params__value">56</div>
+                                        </div>
+                                    </div>
+                                    <!-- //card__params params -->
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__art">ГЕН-112-42</div>
+                                    <div class="card__floor">Этаж 4 из 12</div>
+                                </div>
+                            </a>
+                            <!-- // card -->
+                        </article>
+
+                        <article class="col-md-4">
+                            <!-- card -->
+                            <a href="object.html" class="card">
+                                <div class="card__header">
+                                    <div class="card__title">
+                                        ЖК Генеральский
+                                    </div>
+                                    <div class="card__like">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <img
+                                        src="img/flat-plan.png"
+                                        alt="План квартиры"
+                                    />
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__price">
+                                        <div class="card__price-total">
+                                            4 200 000 ₽
+                                        </div>
+                                        <div class="card__price-per-meter">
+                                            64 000 ₽/м2
+                                        </div>
+                                    </div>
+
+                                    <!-- card__params params -->
+                                    <div class="card__params params">
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Комнат
+                                            </div>
+                                            <div class="params__value">1</div>
+                                        </div>
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Площадь
+                                            </div>
+                                            <div class="params__value">56</div>
+                                        </div>
+                                    </div>
+                                    <!-- //card__params params -->
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__art">ГЕН-112-42</div>
+                                    <div class="card__floor">Этаж 4 из 12</div>
+                                </div>
+                            </a>
+                            <!-- // card -->
+                        </article>
+
+                        <article class="col-md-4">
+                            <!-- card -->
+                            <a href="object.html" class="card">
+                                <div class="card__header">
+                                    <div class="card__title">
+                                        ЖК Генеральский
+                                    </div>
+                                    <div class="card__like">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <img
+                                        src="img/flat-plan.png"
+                                        alt="План квартиры"
+                                    />
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__price">
+                                        <div class="card__price-total">
+                                            4 200 000 ₽
+                                        </div>
+                                        <div class="card__price-per-meter">
+                                            64 000 ₽/м2
+                                        </div>
+                                    </div>
+
+                                    <!-- card__params params -->
+                                    <div class="card__params params">
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Комнат
+                                            </div>
+                                            <div class="params__value">1</div>
+                                        </div>
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Площадь
+                                            </div>
+                                            <div class="params__value">56</div>
+                                        </div>
+                                    </div>
+                                    <!-- //card__params params -->
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__art">ГЕН-112-42</div>
+                                    <div class="card__floor">Этаж 4 из 12</div>
+                                </div>
+                            </a>
+                            <!-- // card -->
+                        </article>
+
+                        <article class="col-md-4">
+                            <!-- card -->
+                            <a href="object.html" class="card">
+                                <div class="card__header">
+                                    <div class="card__title">
+                                        ЖК Генеральский
+                                    </div>
+                                    <div class="card__like">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <img
+                                        src="img/flat-plan.png"
+                                        alt="План квартиры"
+                                    />
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__price">
+                                        <div class="card__price-total">
+                                            4 200 000 ₽
+                                        </div>
+                                        <div class="card__price-per-meter">
+                                            64 000 ₽/м2
+                                        </div>
+                                    </div>
+
+                                    <!-- card__params params -->
+                                    <div class="card__params params">
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Комнат
+                                            </div>
+                                            <div class="params__value">1</div>
+                                        </div>
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Площадь
+                                            </div>
+                                            <div class="params__value">56</div>
+                                        </div>
+                                    </div>
+                                    <!-- //card__params params -->
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__art">ГЕН-112-42</div>
+                                    <div class="card__floor">Этаж 4 из 12</div>
+                                </div>
+                            </a>
+                            <!-- // card -->
+                        </article>
+
+                        <article class="col-md-4">
+                            <!-- card -->
+                            <a href="object.html" class="card">
+                                <div class="card__header">
+                                    <div class="card__title">
+                                        ЖК Генеральский
+                                    </div>
+                                    <div class="card__like card__like--active">
+                                        <i class="fas fa-heart"></i>
+                                    </div>
+                                </div>
+                                <div class="card__img">
+                                    <img
+                                        src="img/flat-plan.png"
+                                        alt="План квартиры"
+                                    />
+                                </div>
+                                <div class="card__desc">
+                                    <div class="card__price">
+                                        <div class="card__price-total">
+                                            4 200 000 ₽
+                                        </div>
+                                        <div class="card__price-per-meter">
+                                            64 000 ₽/м2
+                                        </div>
+                                    </div>
+
+                                    <!-- card__params params -->
+                                    <div class="card__params params">
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Комнат
+                                            </div>
+                                            <div class="params__value">1</div>
+                                        </div>
+                                        <div class="params__item">
+                                            <div class="params__definition">
+                                                Площадь
+                                            </div>
+                                            <div class="params__value">56</div>
+                                        </div>
+                                    </div>
+                                    <!-- //card__params params -->
+                                </div>
+                                <div class="card__footer">
+                                    <div class="card__art">ГЕН-112-42</div>
+                                    <div class="card__floor">Этаж 4 из 12</div>
+                                </div>
+                            </a>
+                            <!-- // card -->
+                        </article>
+                    </div>
+                    <!-- // row -->
+                </div>
+            </div>
+            <!-- // cards-wrapper -->
+        </div>
+        <!-- // content-wrapper -->
+
+        <div class="footer">
+            <div class="contaier">
+                <p>
+                    Учебный проект школы
+                    <a href="https://webcademy.ru/">WebCademy</a> с курса
+                    <a href="https://webcademy.ru/jscourse/"
+                        >JavaScript разработка</a
+                    >. Проект выполнил <a href="#">Сергей Васильев</a>.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

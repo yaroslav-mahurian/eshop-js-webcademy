@@ -1,0 +1,118 @@
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(70, 131, 180, 0.5);
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: block;
+    width: 600px;
+    height: auto;
+
+    // margin: 0 auto;
+
+    background-color: #fff;
+}
+
+.modal__header {
+    padding: 15px 20px 15px;
+}
+
+.modal__title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.modal__details {
+    font-size: 22px;
+}
+
+.modal__details-art {
+    color: #959595;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modal__form-content {
+    padding: 15px 20px;
+}
+
+.formgroup {
+    margin-bottom: 25px;
+}
+
+.formgroup--checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    input {
+        margin-top: 7px;
+        margin-right: 15px;
+    }
+}
+
+.modal__form-input-label {
+    display: block;
+}
+
+.modal__form-input {
+    display: block;
+    padding: 10px 15px;
+    width: 100%;
+    border: 1px solid #a7a7a7;
+}
+
+.modal__submit {
+    width: 100%;
+    height: 65px;
+    border: none;
+    background-color: #dc0909;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.1s background-color ease-in;
+
+    &:hover {
+        background-color: #f05858;
+    }
+    &:active {
+        background-color: #a02424;
+    }
+}
+
+.modal__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: block;
+    padding: 5px 15px;
+    border: none;
+    // background-color: #af2525;
+    background-color: #3b3b3b;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.1s background-color ease-in;
+
+    &:hover {
+        background-color: #181818;
+    }
+    &:active {
+        background-color: #000000;
+    }
+}
+
+.policy-text {
+    font-size: 12px;
+}

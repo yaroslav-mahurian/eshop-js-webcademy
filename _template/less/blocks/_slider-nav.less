@@ -1,0 +1,27 @@
+.slider-nav {
+	display: flex;
+	justify-content: center;
+}
+
+.slider-nav__dot {
+	width: 12px;
+	height: 12px;
+	background-color: #e5e5e5;
+	margin-right: 18px;
+	border-radius: 50%;
+	
+	&:last-child {
+		margin-right: 0;
+	}
+	
+	&--active {
+		width: 12px;
+		height: 12px;
+		background-color: #e51414;
+	}
+
+	&:hover {
+		cursor: pointer;
+		opacity: 0.8;
+	}
+}
